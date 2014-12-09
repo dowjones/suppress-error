@@ -52,7 +52,7 @@ async.parallel({
 ```
 
 
-Note that even though `one` returned an error, the final
+*Note* that even though `one` returned an error, the final
 callback was called (as async intentionally never got the error),
 and the error itself is surfaced in `one.error`.
 
