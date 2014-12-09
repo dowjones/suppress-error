@@ -1,7 +1,7 @@
 {
   "name": "suppress-error",
   "version": "1.0.0",
-  "description": "Wrap a function that potentially yields an error via a cb(err) to suppress, yet capture the error.",
+  "description": "Wraps a function, suppresses node-style errors, and surfaces them in the value.",
   "repository": {
     "type": "git",
     "url": "git://github.com/areusjs/suppress-error.git"
