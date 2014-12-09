@@ -1,0 +1,23 @@
+{
+  "name": "suppress-error",
+  "version": "1.0.0",
+  "description": "Wrap a function that potentially yields an error via a cb(err) to suppress, yet capture the error.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/areusjs/suppress-error.git"
+  },
+  "author": "nemtsov@gmail.com",
+  "main": "./lib",
+  "scripts": {
+    "test": "sh -c 'npm run test-cover && istanbul check-coverage --statements 70 --functions 70 --branches 70 --lines 70'",
+    "test-cover": "istanbul cover _mocha -- -r should --recursive",
+    "test-watch": "mocha -r should --recursive -w -R min"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.2",
+    "mocha": "^2.0.1",
+    "should": "^4.3.0"
+  }
+}
