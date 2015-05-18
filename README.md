@@ -1,4 +1,4 @@
-# Suppress Error [![Build Status](https://secure.travis-ci.org/areusjs/suppress-error.png)](http://travis-ci.org/areusjs/suppress-error) [![NPM version](https://badge.fury.io/js/suppress-error.svg)](http://badge.fury.io/js/suppress-error)
+# Suppress Error [![Build Status](https://secure.travis-ci.org/dowjones/suppress-error.png)](http://travis-ci.org/dowjones/suppress-error) [![NPM version](https://badge.fury.io/js/suppress-error.svg)](http://badge.fury.io/js/suppress-error)
 
 This library wraps a function, suppresses node-style errors and surfaces them
 in the value. This is useful when you're working with `async` and need the
